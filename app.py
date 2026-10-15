@@ -28,7 +28,7 @@ st.write(
 )
 
 threshold = st.slider(
-    "Minimum confidence", min_value=0.00, max_value=0.100, value=0.30, step=0.05
+    "Minimum confidence", min_value=0.00, max_value=0.90, value=0.30, step=0.05
 )
 uploaded_file = st.file_uploader("Upload a JPG or PNG image", type=["jpg", "jpeg", "png"])
 
